@@ -1,0 +1,9 @@
+# Peer-to-pool, non-custodial, on-chain trading
+
+Reya fully embraces the non-custodial nature of DeFi. This means that the entire flow of execution, clearing and settlement is done on the blockchain itself, in a transparent and secure way. Every user can verify their transactions as they get registered, as well as their balances, margin requirements and accrued cashflows.
+
+The Derivatives Clearing Protocol is non-custodial, meaning that all settlement and margin funds are are safeguarded cryptographically by the Protocol rather than by an administrator (eliminating ‘FTX’ risk). The Protocol includes mechanisms to ensure that all funds are correctly managed and settled.
+
+Furthermore, the architecture of the Derivatives Clearing around collateral pools means that trading in Reya is peer-to-pool: although positions are originated in pairs at associated exchanges to ensure pool neutrality, subsequent margining and settlement is between the user and the collateral pool itself. In particular, the counterparty at the origin of the position might completely unwind their exposure with no difference for the user.
+
+Peer-to-pool trading is the decentralized version of the CCP’s novation: rather than splitting a contract into two, between each of the two counterparties and a central party, the smart contract and the collateral pool itself lies at the center of the system, with every party facing it. Importantly, the single insolvency and liquidation of the counterparty has no direct bearing on a user, and their settlement cashflows are guaranteed as long as the pool as a whole remains solvent. Accordingly, if the pool’s solvency is threatened by a contract or instrument, positions are shortcut or, in the extreme case, losses are distributed in a socialized manner through auto-deleveraging as discussed below.
