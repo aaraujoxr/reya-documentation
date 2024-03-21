@@ -1,14 +1,18 @@
 # The liquidation engine
 
-Liquidations are the procedures through which Reya cuts positions off to stop accounts from accumulating losses larger than their margin balance. They are triggered whenever the liquidation margin requirement (LMR) is breached for a bubble. In the presence of cross-margining, for a given settlement token $T$ we need to verify the LMR both at the ‘local’
+Liquidations are the procedures through which Reya cuts positions off to stop accounts from accumulating losses larger than their margin balance. They are triggered whenever the liquidation margin requirement (LMR) is breached for a bubble. In the presence of cross-margining, for a given settlement token $$T$$ we need to verify the LMR both at the ‘local’
 
-\$$ \mathrm{NDelta}\_T=\mathrm{BBal}\_T-\mathrm{LMR}\_T\leq 0 \$$
+$$
+\mathrm{NDelta}_T=\mathrm{BBal}_T-\mathrm{LMR}_T\leq 0
+$$
 
 as well as the ‘global’ level:
 
-\$$ \mathrm{NDelta}_{USD}=\sum_{S\_{T'}>0}(1-\mathrm{haircut}_T)X_{T'/USD}S\_{T'}\leq 0 \$$
+$$
+\mathrm{NDelta}{USD}=\sum{S_{T'}>0}(1-\mathrm{haircut}T)X{T'/USD}S_{T'}\leq 0
+$$
 
-where $S\_{T'}=\min(\mathrm{NDelta}_{T'},\mathrm{RBBal}_{T'})$. Essentially, even if a bubble cannot satisfy the LMR autonomously, we check if there are funds in the other bubbles that can be auto-exchanged.
+where . Essentially, even if a bubble cannot satisfy the LMR autonomously, we check if there are funds in the other bubbles that can be auto-exchanged.
 
 ## The liquidation waterfall
 

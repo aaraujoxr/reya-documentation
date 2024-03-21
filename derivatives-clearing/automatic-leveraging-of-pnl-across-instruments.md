@@ -2,7 +2,7 @@
 
 Even in the basic token-matched case above, $REYA unlocks capital efficiency by automatically leveraging all PnL into a user’s balance. In practice, this means that all PnL is automatically part of a user’s balance. Explanation of all terms follows below:
 
-\$$ Bal\_T = \mathrm{netDeposits}\_T + \mathrm{realizedPnL}\_T + \mathrm{unrealizedPnL}\_T \$$
+$$Bal_T = \mathrm{netDeposits}_T + \mathrm{realizedPnL}_T + \mathrm{unrealizedPnL}_T$$
 
 This feature is sometime known as cross-margining, although the term is more appropriately used for offsetting of margin requirements, also offered in Reya as explained below.
 

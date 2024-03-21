@@ -24,7 +24,7 @@
   * [Auto-exchange conditions](derivatives-clearing/cross-collateralization/auto-exchange-conditions.md)
   * [Auto-exchange mechanism](derivatives-clearing/cross-collateralization/auto-exchange-mechanism.md)
 * [Cross-margining](derivatives-clearing/cross-margining/README.md)
-  * [The risk matrix](derivatives-clearing/cross-margining/the-risk-matrix.md)
+  * [The margin system](derivatives-clearing/cross-margining/the-margin-system.md)
 * [The liquidation engine](derivatives-clearing/the-liquidation-engine/README.md)
   * [Ranked liquidations](derivatives-clearing/the-liquidation-engine/ranked-liquidations.md)
   * [Dutch auction](derivatives-clearing/the-liquidation-engine/dutch-auction.md)

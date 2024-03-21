@@ -2,7 +2,7 @@
 
 Because the network will be an interlocked system of components, a single governance layer will be introduced for the entire network. In particular, all components will share the same governance token - $REYA. Details will follow when appropriate, but this page explains the guiding principles.
 
-Reya Labs embraces a full decentralized ethos while also recognizing the importance of responsible governance. It will deploy the next generation of governance layer, blending the best features of token-governance (incentives-driven decentralized governance) with the best features of the regulated world (stakeholders with skin in the game).
+Reya Network will decentralise governance to future $REYA stakers ensuring the network isn’t controlled by any single entity and providing transparency and trust through to the end users of the system. Trust and transparency also improves the composability of the network giving other exchanges confidence they can operate on the network, too. In turn this will help accelerate adoption of Reya Network and further deepen liquidity for end users.
 
 In particular, governance staking will bundle a series of benefits and liabilities:
 
