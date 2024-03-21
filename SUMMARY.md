@@ -17,9 +17,7 @@
 
 ## Derivatives Clearing
 
-* [What is the Derivatives Clearing Protocol](derivatives-clearing/what-is-the-derivatives-clearing-protocol/README.md)
-  * [Peer-to-pool, non-custodial, on-chain trading](derivatives-clearing/what-is-the-derivatives-clearing-protocol/peer-to-pool-non-custodial-on-chain-trading.md)
-  * [Margin accounts](derivatives-clearing/what-is-the-derivatives-clearing-protocol/margin-accounts.md)
+* [What is the Derivatives Clearing Protocol](derivatives-clearing/what-is-the-derivatives-clearing-protocol.md)
 * [Automatic leveraging of PnL across instruments](derivatives-clearing/automatic-leveraging-of-pnl-across-instruments.md)
 * [Cross-collateralization](derivatives-clearing/cross-collateralization/README.md)
   * [Haircuts](derivatives-clearing/cross-collateralization/haircuts.md)
