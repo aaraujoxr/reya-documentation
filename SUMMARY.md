@@ -1,10 +1,8 @@
 # Table of contents
 
-* [Page](README.md)
-
 ## Introducting Reya Network
 
-* [The three pillars of Reya Network](<README (1).md>)
+* [The three pillars of Reya Network](README.md)
 * [The structure of Reya Network](introducting-reya-network/the-structure-of-reya-network.md)
 
 ## The liquidity Layer
