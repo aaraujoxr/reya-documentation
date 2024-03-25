@@ -5,10 +5,10 @@ When one of the auto-excange conditions is breached, the system will forcefully 
 The amount of collateral $$m$$ of token $$S$$ the auto-exchanger receives in exchange is computed as
 
 $$
-(1-\mathrm{discount}{S/T})X{S/T}\times m=n
+(1-\mathrm{discount}_{S/T})X_{S/T}\times m=n
 $$
 
-where both $$\mathrm{discount}{S/T}$ and $X{S/T}$$ will generally be a compound term, computed as products/quotients of the official pool discounts and exchange rates (one needs to trace the S→T path on the directed graph).
+where both $$\mathrm{discount}_{S/T}$$ and $$X_{S/T}$$ will generally be a compound term, computed as products/quotients of the official pool discounts and exchange rates (one needs to trace the S→T path on the directed graph).
 
 The following diagram illustrates the general flow.
 

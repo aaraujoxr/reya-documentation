@@ -30,9 +30,3 @@ A Passive-LP Pool is embedded into the network. This leverages Reya Network’s 
 ### **Governance**
 
 Reya Network will decentralise governance to future $REYA stakers ensuring the network isn’t controlled by any single entity and providing transparency and trust through to the end users of the system. Trust and transparency also improves the composability of the network giving other exchanges confidence they can operate on the network, too. In turn this will help accelerate adoption of Reya Network and further deepen liquidity for end users.
-
-## Looking forward
-
-The present iteration of Reya Network is only the beginning. The reimagining of DeFi foundations is a true paradigm shift that sets the stage for further development. The examples of synergies and blending point to the existence of unforeseen ones in the future. But many natural questions arise right away: What does true tokenization of derivatives exposure look like? If that exposure is tokenized, what if the entire network becomes identified with the collateral pool, and your wallet becomes your margin account? What does a governance system look like that intertwines stakeholders to the same extent that the foundations themselves are integrated?
-
-And finally, what true value of the $REYA token is unlocked?
