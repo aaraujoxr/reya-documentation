@@ -2,8 +2,11 @@
 
 ## Introducting Reya Network
 
-* [The three pillars of Reya Network](README.md)
+* [Why create Reya Network](README.md)
+* [The three pillars of Reya Network](<README (1).md>)
+* [Who's behind Reya Network](introducting-reya-network/whos-behind-reya-network.md)
 * [The structure of Reya Network](introducting-reya-network/the-structure-of-reya-network.md)
+* [What's the roadmap](introducting-reya-network/whats-the-roadmap.md)
 
 ## The liquidity Layer
 
