@@ -2,7 +2,7 @@
 
 Reya Network liberates the application layer of DeFi by creating an autonomous, specialized and optimized infrastructure that solves for the following 3 core pillars:
 
-<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ## Liquidity
 
