@@ -2,6 +2,8 @@
 
 Right now, Reya Network is composed of two layers.
 
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
 ## **The chain layer**
 
 This layer optimises the speed and throughput of the network, alongside addressing some important issues on generalisable chains such as front-running and harmful MEV. This layer is powered by Arbitrum Orbit and can achieve 100ms blocktimes and up to 30,000 transactions per second - making it one of the fastest EVM rollups around.
