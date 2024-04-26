@@ -8,11 +8,20 @@
   * [What's the roadmap](introducting-reya-network/why-create-reya-network/whats-the-roadmap.md)
 * [The structure of Reya Network](introducting-reya-network/the-structure-of-reya-network.md)
 
+## Incentives Program
+
+* [Bootstrapping the Network](incentives-program/bootstrapping-the-network.md)
+* [Experience](incentives-program/experience.md)
+* [Liquidity Generation Event](incentives-program/liquidity-generation-event.md)
+* [Step by step guide](incentives-program/step-by-step-guide.md)
+* [LGE FAQ](incentives-program/lge-faq.md)
+
 ## The liquidity Layer
 
-* [What is a passive liquidity mechanism](the-liquidity-layer/what-is-a-passive-liquidity-mechanism.md)
+* [What is the passive liquidity mechanism](the-liquidity-layer/what-is-the-passive-liquidity-mechanism.md)
 * [Reya’s pool for perpetual futures](the-liquidity-layer/reyas-pool-for-perpetual-futures.md)
 * [Offering liquidity in the passive pool](the-liquidity-layer/offering-liquidity-in-the-passive-pool.md)
+* [Deepdive into the passive perps](the-liquidity-layer/deepdive-into-the-passive-perps.md)
 
 ## Reya stablecoin
 
@@ -41,3 +50,10 @@
 ## Reya Governance
 
 * [Imagining a new governance](reya-governance/imagining-a-new-governance.md)
+
+## More resources
+
+* [Technical resources](more-resources/technical-resources/README.md)
+  * [Smart contract withdrawals](more-resources/technical-resources/smart-contract-withdrawals.md)
+* [Reya Community](more-resources/reya-community.md)
+* [FAQ](more-resources/faq.md)

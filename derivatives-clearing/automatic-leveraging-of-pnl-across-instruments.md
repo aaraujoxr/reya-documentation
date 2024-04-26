@@ -12,4 +12,4 @@ The following diagram illustrates the automatic leveraging of PnL when instrumen
 
 
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>

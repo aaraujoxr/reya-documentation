@@ -2,7 +2,7 @@
 
 Right now, Reya Network is composed of two layers.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 ## **The chain layer**
 
@@ -31,4 +31,4 @@ A Passive-LP Pool is embedded into the network. This leverages Reya Network’s 
 
 ### **Governance**
 
-Reya Network will decentralise governance to future $REYA stakers ensuring the network isn’t controlled by any single entity and providing transparency and trust through to the end users of the system. Trust and transparency also improves the composability of the network giving other exchanges confidence they can operate on the network, too. In turn this will help accelerate adoption of Reya Network and further deepen liquidity for end users.
+Reya Network will decentralise, ensuring the network isn’t controlled by any single entity and providing transparency and trust through to the end users of the system. Trust and transparency also improves the composability of the network giving other exchanges confidence they can operate on the network, too. In turn this will help accelerate adoption of Reya Network and further deepen liquidity for end users.

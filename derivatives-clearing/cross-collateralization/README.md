@@ -14,4 +14,4 @@ Reya’s cross-collateralization module uses a system of bubbles and haircuts ba
 
 The following diagram illustrates the system, where we use USD as the root of the diagram as an example.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>

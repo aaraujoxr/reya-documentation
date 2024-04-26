@@ -16,7 +16,7 @@ The basic concept in the Derivatives Clearing Protocol is that of a _collateral 
 2. Cross-collateralization module that manages features around collateralization with tokens other than the settlement token, as well as the auto-exchange mechanism which forces conversion to manage risk levels
 3. Liquidation module that manages liquidation procedures when an account is declared liquidateable by the margin system.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 ## Peer-to-pool, non-custodial, on-chain trading
 

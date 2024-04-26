@@ -2,7 +2,7 @@
 
 The first level is the open bidding process, during which bidder will submit a series of volumes $$\{Q_i\}$$ that they are willing to take on from the liquidated account, as well as a percentage of the resulting change in LMR that they request as reward. The open competitive process should ensure that the reward parameter is optimized.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt="" width="563"><figcaption></figcaption></figure>
 
 The other cornerstone for this procedure is a scoring function used for liquidation bids, which summarizes the reward parameter and the market impact. For a bid requesting volumes $$\{Q_i\}$$ of $$n$$ assets for a reward parameter $$d$$, the score is
 

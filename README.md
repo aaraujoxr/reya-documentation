@@ -1,11 +1,23 @@
 # Why create Reya Network
 
-<figure><img src="https://lh7-us.googleusercontent.com/TfnBqTlradc254NB4FGiJMzSAc7oZzb9vlONKf-1WI4FoA_Buc_oC1ZjCsMMvRE2Z94uLGs4vQJQPxfjiGhfjM-FGNzuWQTYG2eSS-Szs_5D8z541HFzDijdCIOMGoi4FReKZyD0frpewyqBQrsRHeQ" alt=""><figcaption></figcaption></figure>
+A haircut is a percentage decrease in the exchange rate applied for risk reasons: specifically, given two tokens or currencies $$T$$ and $$T'$$, we convert $$T'$$ a collateral not simply by multiplying by the exchange rate $$X_{T'/T}$$, but rather by multiplying by
 
-Reya Network is not another generalisable L2. It’s also not another unsubstantial hype-narrative. Instead, we solve real problems in DeFi scaling that can’t be addressed through generalisable designs. As a team of DeFi OGs, we know what these problems are. And best of all, we’ve figured out how to solve them.
+$$
+(1-\textrm{haircut}_{T'})X_{T'/T}
+$$
 
-The most significant limitation for DeFi scaling is the mass liquidity fragmentation that has emerged, where each new exchange built on a generalisable rollup competes for a limited supply of liquidity.
+The resulting amount is less than the market value of the  collateral, the difference serving as a cushion for future exchange rate fluctuations that might happen if and until the collateral is converted to cover margin requirements. The haircut, then, can be thought of as margin, but applied statically and in a segregated fashion to the collateral. The methodologies for calculating its values will need risk measures like margin models.
 
-This leads to shallower markets across all exchanges, hurting traders and market participants. Generalisable designs also inherit issues such as front-running, and harmful-MEV and have performance limitations due to the inability to parallelise execution.
+The previous multiplier assumed that the worst scenario is when the exchange rate goes down, which is indeed the case when converting positive quantities. If we convert negative quantities, however, the worst outcome is actually when the exchange rate goes up instead. Therefore, when moving around margin requirements or negative balances, one multiplies instead by
 
-Reya Network shifts the paradigm of how we think about scaling. We believe networks don’t need to be generalisable, but instead can be optimised for a single use case. By focusing on a single use case, we move beyond technical improvements only, and also focus on financial logic and liquidity. Hence Reya Network focuses on DeFi trading by optimising for the three pillars of Liquidity, Capital Efficiency and Performance.
+$$
+\frac{1}{1-\textrm{haircut}_{T'}}X_{T'/T}
+$$
+
+The advantage of this form is that
+
+$$
+\frac{1}{(1-\textrm{haircut}{T'})X_{T'/T}}=\frac{1}{1-\textrm{haircut}{T'}}X_{T/T'}
+$$
+
+so that the multipliers get interchanges when reversing the sense of the arrows in the graph.

@@ -12,4 +12,4 @@ where both $$\mathrm{discount}_{S/T}$$ and $$X_{S/T}$$ will generally be a compo
 
 The following diagram illustrates the general flow.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>

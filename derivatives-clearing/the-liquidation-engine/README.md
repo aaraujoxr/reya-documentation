@@ -32,4 +32,4 @@ The important design choices are:
 * Positions are always transferred by referencing the price index: as explained above, this ensures the coherence between margin requirements, marking to market, and liquidation losses.
 * Untrusted liquidators are compensated with a margin balance (’cash’) transfer proportion to the reduction in LMR. In this way, no untrusted liquidator can cause the account to lose more than the LMR, which should prevent different types of attacks. Also, the liquidator’s reward being in ‘cash’ (rather than a discount on price index) should incentivize them, since it means their liquidation profits are always immediately realized.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
